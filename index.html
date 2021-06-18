@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>在水一方</title>
+	<style>
+		<!--
+		*{
+			font-family: 楷体;
+		}/*所有字体为楷体*/
+		body{
+			background-color: #408BC3;
+		}
+		/*以下为header部分*/
+		header{
+			background-color: rgba(255,255,255,1.00);
+			color: #408BC3;
+			height: 34px;
+		}
+		header a{
+			color: #408BC3;
+			text-decoration: none;
+		}/*头部鼠标样式*/
+		header a:hover{
+			color: #016297;
+		}/*头部鼠标悬停样式*/
+		.more{
+			position: absolute;
+			right: 200px;
+			top:15px;
+		}/*头部“更多”文字定位*/
+		.aboutUs{
+			position: absolute;
+			right: 75px;
+			top:15px;
+		}/*头部“关于我们”文字定位*/
+		
+		/*以下为搜索部分*/
+		form{
+			position: absolute;
+			right: 420px;
+			top:350px;
+		}
+		button{
+			background-color: #016297;
+			height: 30px;
+			border: none;
+			color: #FFFFFF;
+			padding-right: 20px;
+			padding-left: 20px;
+		}/*搜索按钮样式*/
+		.search{
+			width: 600px;
+			height: 30px;
+			position: absolute;
+			right: 65px;
+		}/*搜索框样式*/
+		
+		/*以下为导航部分*/
+		ul{
+			height: 34px;
+			list-style: none;
+			margin: 0 auto;
+			padding: 0 auto;
+			overflow: hidden;
+			text-align: center;
+			background-color: #FFFFFF;
+			color: #408BC3;
+		}
+		li{
+			float: left;
+			margin-left: 70px;
+			margin-right: 50px;
+			margin-top: 10px;
+		}
+		li a{
+			color: #408BC3;
+			text-decoration: none;
+			padding: 17px 75px 17px 75px;
+		}/*导航链接样式*/
+		li a:hover{
+			background-color: #408BC3;
+			color: #FFFFFF;
+		}/*导航链接鼠标悬停样式*/
+		-->
+	</style>
+</head>
+
+<body>
+	<div>
+		<!--....................分界线........................--><!--header部分-->
+		<header>
+			<span class="more">
+				<a href="">更多</a>
+			</span>
+			<span class="aboutUs">
+				<a href="">关于我们</a>
+			</span>
+		</header>
+		<!--....................分界线........................-->
+		<img src="images/TopicMap.jpg" alt="picture of the sea" width="100%"><!--主题图-->
+		<form><!--搜索框-->
+			<input type="search" class="search">
+			<button>搜索</button>
+		</form>
+		<!--....................分界线........................--><!--导航部分-->
+		<nav>
+			<ul>
+			<li><a href="">基础知识</a></li>
+			<li><a href="">不可或缺的水</a></li>
+			<li><a href="">水资源现状</a></li>
+			<li><a href="">一起守护</a></li>
+			</ul>
+		</nav>
+		<!--....................分界线........................-->
+	</div>
+</body>
+</html>
